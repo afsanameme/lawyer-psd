@@ -1,0 +1,294 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	padding: 10px 0px;
+
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	font-weight: 700;
+	color: #1f4f87;
+	margin: 0px 5px 0px 0px;
+	letter-spacing: 1px;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	color: #f2632c;
+	transition: 1s;
+}
+/* header section ends */
+/* banner section starts */
+.banner{
+	width: 100%;
+	background: url('../images/bg.png') center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0px 60px;
+}
+.banner h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	color: #fff;
+	text-transform: uppercase;
+
+
+}
+.banner img{
+	
+	padding: 140px 0px 0px;	
+}
+/* banner section ends */
+/* who-we section starts */
+.who-we{
+	width: 100%;
+	padding: 70px 0px ;
+}
+.title{
+	padding: 15px 0px;
+
+}
+.title h2{
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #1f4f87 ;
+}
+.who-we p{
+	color: #b0b0b1;
+	font-size: 14px;
+	line-height: 24px;
+}
+.who-we .who-right {
+    margin: 0px 0px 0px 140px;
+    width: auto;
+    height: 95%;
+}
+/* who-we section ends*/
+/* we-do section starts */
+.we-do{
+	width: 100%;
+	background: url('../images/we-do-bg.png') center top no-repeat;
+	background-size: cover;
+	padding: 70px 0px ;
+}
+.we-do .title{
+	text-align: center;
+}
+.inner-image{
+	width: 80%;
+	position: relative;
+	
+	
+}
+.inner-we-do {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    text-align: center;
+    height: 100%;
+}
+.inner-we-do h3{
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inner-we-do .arrow {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+
+
+/* we-do section ends */
+/* attorney section starts */
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url('../images/attorneybg.png') center top no-repeat;
+	background-size: cover;
+}
+.attorney .title{
+	width: 100%;
+	padding: 110px 0px;
+}
+.attorney .title h2{
+	color: #fff;
+
+
+}
+.attorney .title p{
+	color: #929dcf;
+}
+.attorney .title a{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color:#f2632c ;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	
+}
+.attorney .inner-att {
+    width: 100%;
+    position: relative;
+    margin: 0px 0px 40px 0px;
+}
+.attorney .att-cap {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 28px;
+    height: 100%;
+}
+.attorney .att-cap h4{
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+/* attorney section ends */
+/* language section starts */
+.language{
+	width: 100%;
+	padding: 30px 0px;
+}
+.language .title{
+	text-align: center;
+}
+.language .inner-language{
+	width: 85%;
+	padding: 25px 0px;
+
+}
+.language .inner-language h4{
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+
+}
+.language .inner-language p{
+	color: #dbdada;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+.language .inner-language a{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color:#f2632c ;
+	text-transform: uppercase;
+	
+	
+}
+/* language section ends */
+/* contact section starts */
+.contact{
+	width: 100%;
+	padding: 50px 0px;
+	background: #28377e;
+}
+.contact .title{
+	text-align: center;
+}
+.contact .title h2{
+	color: #fff;
+}
+.contact .form{
+	width: 100%;
+	margin: 5px 0px;
+	
+}
+.contact .form .form-control{
+	background: transparent;
+	border:transparent ;
+	border-radius: 0px;
+	border-bottom: 1px solid #d6d6d6;
+	margin: 15px 0px;
+	text-transform: uppercase;
+	color:#fff ;
+	font-size: 14px;
+
+}
+.contact .form .form-control:hover, .contact .form .form-control:focus{
+	background:#d6d6d6 ;
+	
+}
+.contact .form .btn-danger{
+    margin: 35px 200px;
+    padding: 10px 65px;
+    border-radius: 0px;
+    padding: ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #f2622c;
+}
+/* contact section ends */
+/* footer starts */
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	background: #0c1234;
+}
+.footer .copyright{
+	color: #b1b7dd;
+	font-size: 16px;
+	line-height: 26px;
+}
+.footer .copyright a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#f2622c ;
+	font-size: 18px;
+}
+.footer .social-icons{
+	text-align: right;
+}
+.footer .social-icons ul{
+	list-style: none;
+	display: inline;
+	
+
+}
+.footer .social-icons li{
+	display: inline-block;
+	margin: 0px 15px;
+	
+}
+.footer .social-icons a{
+	font-size: 18px;
+	color: #b1b7dd;
+
+}
+.footer .social-icons i{
+	text-align: right;
+
+}
+
+/* footer ends */
